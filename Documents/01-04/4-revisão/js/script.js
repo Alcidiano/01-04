@@ -40,15 +40,50 @@
 // alert(`Não pode entrar`)
 // }
 
-let idade = parseInt(prompt("Idade"))
+// let idade = parseInt(prompt("Idade"))
 
-if(idade >= 18){
-    alert(`Pode entrar
-    `)
-}else if(idade >=15 && idade<18){
-    alert(`Pode entrar com os pais`)
-}
-else{
-alert(`Não pode entrar`)
-}
+// if(idade >= 18){
+//     alert(`Pode entrar
+//     `)
+// }else if(idade >=15 && idade<18){
+//     alert(`Pode entrar com os pais`)
+// }
+// else{
+// alert(`Não pode entrar`)
+// }
 
+// for(let i = 0; i <= 50; i++) {
+//     console.log(`O valor de i é: ${i}`)
+// }
+
+// let p = 0;
+
+// while(p <= 5){
+//     console.log(`Repetindo ${p}`)
+//     p++
+// }
+
+// let a = 10
+
+// do{
+//     console.log(`Valor de A: ${a}`)
+//     a = a -1
+// }while(a > 1)
+
+let trabalho = prompt("Digite seu trabalho")
+
+switch(trabalho){
+    case "programador":
+    console.log(`Voçê gosta de programar`);
+    break;
+    case "engenheiro":
+    console.log(`Voçê gosta de calcular`);
+    break;
+
+    case "Advogado":
+    console.log(`Voçê gosta de justiça`);
+    break;
+   
+    default:
+    console.log("Profissão não encontrada")
+}
