@@ -70,20 +70,20 @@
 //     a = a -1
 // }while(a > 1)
 
-let trabalho = prompt("Digite seu trabalho")
+// let trabalho = prompt("Digite seu trabalho")
 
-switch(trabalho){
-    case "programador":
-    console.log(`Voçê gosta de programar`);
-    break;
-    case "engenheiro":
-    console.log(`Voçê gosta de calcular`);
-    break;
+// switch(trabalho){
+//     case "programador":
+//     console.log(`Voçê gosta de programar`);
+//     break;
+//     case "engenheiro":
+//     console.log(`Voçê gosta de calcular`);
+//     break;
 
-    case "Advogado":
-    console.log(`Voçê gosta de justiça`);
-    break;
+//     case "Advogado":
+//     console.log(`Voçê gosta de justiça`);
+//     break;
    
-    default:
-    console.log("Profissão não encontrada")
-}
+//     default:
+//     console.log("Profissão não encontrada")
+// }
