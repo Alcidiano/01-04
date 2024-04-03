@@ -87,10 +87,9 @@
 // console.log(lista[0])
 // console.log(lista.length)
 
-// // const lista2 = ["Gol", "Stilo", "Fusca", "Golf", "Opala", "Punto"] 
-// // // console.log(lista2.length)
-// // for(let i = 0; i < lista2.length; i++){
-// //     console.log(`Elemento da lista2: ${lista2[i]}`)
+// const lista2 = ["Gol", "Stilo", "Fusca", "Golf", "Opala", "Punto"] 
+// for(let i = 0; i < lista2.length; i++){
+//     console.log(`Elemento da lista2: ${lista2[i]}`)
 // }
 
 
@@ -100,4 +99,71 @@
 //     console.log(`Elemento da lista: ${lista[i]}`)
 // }
 
-// console.log(lista2.length)
+
+// Exercício-07
+// escreva um Array chamado Cores (azul amarelo, verde , vermelho, branco)
+
+// escreva uma estrutura de repetição for p/ retornar todos os elemento do array
+
+// const cores = ["Azul", "Amarela", "Verde", "Vermelho", "Branca"]
+
+//  for(let i = 0; i <cores.length; i++){
+//     console.log(`As Cores são: ${cores[i]}`)
+// }   
+
+// exemplo-08
+
+// const nums = [1, 2, 3, 4, 5]
+
+// nums.forEach((n) => {
+//     console.log(`O numero atual é: ${n}`)
+// })
+
+// 8.1
+
+// const numbers = [5, 12, 4, 22];
+// const othorNumbers = [1, 2, 3];
+
+// const allNumbers = numbers.concat(othorNumbers)
+
+// console.log(allNumbers);
+
+// const text = "algum texto";
+// const text2 = "ALÔ JOVEM"
+// console.log(text.toUpperCase());
+// console.log(text2.toLocaleLowerCase());
+
+// const array = ["a", "b", "c"];
+
+// array.push("d");
+
+// console.log(array);
+// console.log(array.length);
+
+// array.pop();
+// const itemRemovido = array.pop();
+
+// console.log(itemRemovido);
+// console.log(array);
+// console.log(array.length);
+
+// array.push("Dá", "Para", "Inserir", "Vários");
+// console.log(array);
+
+
+// const letters = ["a", "b", "c"];
+
+// const letter = letters.shift();
+
+// console.log(letter);;
+// console.log(letters);
+
+// letters.unshift("z", "x", "y");
+// letters.unshift("p");
+
+// console.log(letters);
+
+
+
+
+
